@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Leven - Resume / CV / vCard Template" />
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
-    <meta name="author" content="Dishant Patel" />
+    <meta name="author" content="Maulik Zalavadiya" />
     <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
 
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
@@ -20,6 +20,29 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
     <script src="js/modernizr.custom.js"></script>
+    <!-- right click not available -->
+    <script>
+        window.oncontextmenu = function () {
+            return false;
+        }
+    </script>
+
+    <!-- https://keycode.info/ -->
+    <!-- aa code ne java script ma muki deva -->
+    <script>
+
+        document.onkeydown = function (e) {
+            if (e.ctrlKey &&
+                (e.keyCode === 67 || e.keyCode === 73 || e.keyCode === 65 || e.keyCode === 83 ||
+                    e.keyCode === 86 ||
+                    e.keyCode === 85 ||
+                    e.keyCode === 117)) {
+                return false;
+            } else {
+                return true;
+            }
+        };
+    </script>
   </head>
 
   <body class="page">
