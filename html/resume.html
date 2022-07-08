@@ -1,151 +1,204 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>Resume | Maulik Zalavadiya</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Leven - Resume / CV / vCard Template" />
-    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
-    <meta name="author" content="lmpixels" />
-    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
 
-    <link rel="stylesheet" href="../css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="../css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="../css/main.css" type="text/css">
-    <link rel="stylesheet" href="../css/lineconsStyle.css" type="text/css">
-    <link rel="stylesheet" href="../css/fontStyle.css" type="text/css">
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Resume | Maulik Zalavadiya</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Leven - Resume / CV / vCard Template" />
+  <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
+  <meta name="author" content="lmpixels" />
+  <!-- <link rel="shortcut icon" href="favicon.ico"> -->
 
-    <script src="../js/modernizr.custom.js"></script>
-  </head>
+  <link rel="stylesheet" href="../css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="../css/owl.carousel.css" type="text/css">
+  <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
+  <link rel="stylesheet" href="../css/main.css" type="text/css">
+  <link rel="stylesheet" href="../css/lineconsStyle.css" type="text/css">
+  <link rel="stylesheet" href="../css/fontStyle.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
-  <body class="page">
+  <script src="../js/modernizr.custom.js"></script>
+  <script>
+    window.oncontextmenu = function () {
+      return false;
+    }
+  </script>
 
-    <div class="lm-animated-bg"></div>
+  <!-- https://keycode.info/ -->
+  <!-- aa code ne java script ma muki deva -->
+  <script>
 
-    <!-- Loading animation -->
-    <div class="preloader">
-      <div class="preloader-animation">
-        <div class="preloader-spinner">
-        </div>
+    document.onkeydown = function (e) {
+      if (e.ctrlKey &&
+        (e.keyCode === 67 || e.keyCode === 73 || e.keyCode === 65 || e.keyCode === 83 ||
+          e.keyCode === 86 ||
+          e.keyCode === 85 ||
+          e.keyCode === 117)) {
+        return false;
+      } else {
+        return true;
+      }
+    };
+  </script>
+</head>
+
+<body class="page">
+
+  <div class="lm-animated-bg"></div>
+
+  <!-- Loading animation -->
+  <div class="preloader">
+    <div class="preloader-animation">
+      <div class="preloader-spinner">
       </div>
     </div>
-    <!-- /Loading animation -->
+  </div>
+  <!-- /Loading animation -->
 
-    <!-- Scroll To Top Button -->
-    <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
-    <!-- /Scroll To Top Button -->
+  <!-- Scroll To Top Button -->
+  <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+  <!-- /Scroll To Top Button -->
 
-    <div class="page-scroll">
-      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
+  <div class="page-scroll">
+    <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
 
-        <!-- Header -->
-        <header id="site_header" class="header">
-          <div class="header-content clearfix">
+      <!-- Header -->
+      <header id="site_header" class="header">
+        <div class="header-content clearfix">
 
-            <!-- Text Logo -->
-            <div class="text-logo">
-              <a href="../index.html">
-                <div class="logo-symbol">M</div>
-                <div class="logo-text">Maulik <span>Zalavadiya</span></div>
-              </a>
-            </div>
-            <!-- /Text Logo -->
-
-            <!-- Navigation -->
-            <div class="site-nav mobile-menu-hide">
-              <ul class="leven-classic-menu site-main-menu">
-                <li class="menu-item">
-                  <a href="../index.html">About Me</a>
-                </li>
-
-                <li class="menu-item current-menu-item">
-                  <a href="resume.html">Resume</a>
-                </li>
-
-                <li class="menu-item">
-                  <a href="certificate.html">Certificates</a>
-                </li>
-
-                <li class="menu-item">
-                  <a href="project.html">Projects</a>
-                </li>
-
-                <li class="menu-item">
-                  <a href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <!-- /Navigation -->
-
-            <a class="menu-toggle mobile-visible">
-                <i class="fa fa-bars"></i>
+          <!-- Text Logo -->
+          <div class="text-logo">
+            <a href="../index.html">
+              <div class="logo-symbol">M</div>
+              <div class="logo-text">Maulik <span>Zalavadiya</span></div>
             </a>
           </div>
+          <!-- /Text Logo -->
 
-        </header>
-        <!-- /Header -->
+          <!-- Navigation -->
+          <div class="site-nav mobile-menu-hide">
+            <ul class="leven-classic-menu site-main-menu">
+              <li class="menu-item">
+                <a href="../index.html">About Me</a>
+              </li>
 
-        <div id="main" class="site-main">
-          <div id="main-content" class="single-page-content">
-            <div id="primary" class="content-area">
+              <li class="menu-item current-menu-item">
+                <a href="resume.html">Resume</a>
+              </li>
 
-              <div class="page-title">
-                <h1>Resume</h1>
-              </div>
+              <li class="menu-item">
+                <a href="certificate.html">Certificates</a>
+              </li>
 
-              <div id="content" class="page-content site-content single-post" role="main">
-                <div class="row">
+              <li class="menu-item">
+                <a href="project.html">Projects</a>
+              </li>
 
-                  <div class=" col-xs-12 col-sm-5 ">
-                    <div class="block-title">
-                      <h2>Education</h2>
-                    </div>
+              <li class="menu-item">
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /Navigation -->
 
-                    <div id="timeline_1" class="timeline clearfix">
-<!--                      <div class="timeline-item clearfix">-->
-<!--                        <h5 class="item-period ">2016-2020</h5>-->
-<!--                        <span class="item-company">Northeastern University</span>-->
-<!--                        <h4 class="item-title">Master of Science in Computer Science</h4>-->
-<!--                        <p>Programming Design Paradigm and Database Management Systems</p>-->
-<!--                      </div>-->
+          <a class="menu-toggle mobile-visible">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
 
-<!--                      <div class="timeline-item clearfix">-->
-<!--                        <h5 class="item-period ">2020</h5>-->
-<!--                        <span class="item-company">George Brown College</span>-->
-<!--                        <h4 class="item-title">Certificate Course in Mobile Application Development and Strategy</h4>-->
-<!--                        <p>Object Oriented Design, Web Development Frameworks, Cloud Databases, Mobile Application Frameworks (Native and Cross-Platform) and related Programming Languages along with Automation</p>-->
-<!--                      </div>-->
+      </header>
+      <!-- /Header -->
 
-                      <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2016-2020</h5>
-                        <span class="item-company">Gujarat Technological University</span>
-                        <h4 class="item-title">Bachelor of Engineering in Computer Engineering</h4>
-                        <p>Object Oriented Design, Web Development, Web Applications and Architectures, Artificial Intelligence, Data Structures and Algorithms, Operating Systems, Information and Network Security, Database Management Systems</p>
-                      </div>
+      <div id="main" class="site-main">
+        <div id="main-content" class="single-page-content">
+          <div id="primary" class="content-area">
 
-                    </div>
+            <div class="page-title">
+              <h1>Resume</h1>
+            </div>
+
+            <div id="content" class="page-content site-content single-post" role="main">
+              <div class="row">
+
+                <div class=" col-xs-12 col-sm-5 ">
+                  <div class="block-title">
+                    <h2>Education</h2>
                   </div>
 
-                  <div class=" col-xs-12 col-sm-7 ">
-                    <div class="block-title">
-                      <h2>Professional Experience</h2>
+                  <div id="timeline_1" class="timeline clearfix">
+                    <!--                      <div class="timeline-item clearfix">-->
+                    <!--                        <h5 class="item-period ">2016-2020</h5>-->
+                    <!--                        <span class="item-company">Northeastern University</span>-->
+                    <!--                        <h4 class="item-title">Master of Science in Computer Science</h4>-->
+                    <!--                        <p>Programming Design Paradigm and Database Management Systems</p>-->
+                    <!--                      </div>-->
+
+                    <!--                      <div class="timeline-item clearfix">-->
+                    <!--                        <h5 class="item-period ">2020</h5>-->
+                    <!--                        <span class="item-company">George Brown College</span>-->
+                    <!--                        <h4 class="item-title">Certificate Course in Mobile Application Development and Strategy</h4>-->
+                    <!--                        <p>Object Oriented Design, Web Development Frameworks, Cloud Databases, Mobile Application Frameworks (Native and Cross-Platform) and related Programming Languages along with Automation</p>-->
+                    <!--                      </div>-->
+
+                    <div class="timeline-item clearfix">
+                      <h5 class="item-period ">2016-2020</h5>
+                      <span class="item-company">Gujarat Technological University</span>
+                      <h4 class="item-title">Bachelor of Engineering in Computer Engineering</h4>
+                      <p>Object Oriented Design, Web Development, Web Applications and Architectures, Artificial
+                        Intelligence, Data Structures and Algorithms, Operating Systems, Information and Network
+                        Security, Database Management Systems</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class=" col-xs-12 col-sm-7 ">
+                  <div class="block-title">
+                    <h2>Professional Experience</h2>
+                  </div>
+
+                  <div id="timeline_2" class="timeline clearfix">
+                    <div class="timeline-item clearfix">
+                      <h5 class="item-period current">October 2020 - Present</h5>
+                      <span class="item-company">Hyperlink Infosystem PVT LTD(Ahmedabad)</span>
+                      <h4 class="item-title">Software Developer | Python Developer</h4>
+                      <ul>
+                        <li>Expert in <strong> multiple</strong><strong>project</strong> simultaneously</li>
+                        <li>understanding and <strong> Solutioning</strong> <strong>requirements</strong></li>
+                        <li>Documents and <strong>demostartes</strong> solution by <strong>Developing</strong>
+                          documentation,
+                          <strong>flowcharts</strong>,<strong>layouts</strong>,
+                          <strong>diagrams</strong>,<strong>charts</strong>,<strong>code comments</strong>, and clear
+                          code.
+                        </li>
+                      </ul>
                     </div>
 
                     <div id="timeline_2" class="timeline clearfix">
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period current">August 2020 - Present</h5>
+                        <h5 class="item-period current">August 2020 - September-2021</h5>
                         <span class="item-company">Eco Transport Solution PVT LTD(Gandhinagar)</span>
-                        <h4 class="item-title">jr. Python Developer Engineer</h4>
+                        <h4 class="item-title">Software Developer | Python Developer</h4>
                         <ul>
-                          <li>Work directly with <strong>project</strong> <strong>owners</strong> across the <strong>business</strong> and <strong>plan</strong>, <strong>manage</strong> and <strong>execute</strong> key <strong>projects</strong></li>
-                          <li>Translating <strong>business requirements</strong> into engineering features and <strong>collaborating with teammates</strong> to push features to completion.</li>
-                          <li>Communicating with cross-functional teams and <strong>conducting peer code reviews</strong> while equally participating in <strong>code testing, refactoring code</strong> and <strong>preparing technical documentation</strong> to develop more robust software.</li>
-                          <li>Developing Product based  Backend API using <strong>Python</strong>, <strong>Django</strong>, <strong>DRF(Django rest framework)</strong>,<strong>MySql</strong>, <strong>Git</strong>, <strong>AWS</strong>, <strong>Firebase</strong>.</li>
-                          </ul>
+                          <li>Work directly with <strong>project</strong> <strong>owners</strong> across the
+                            <strong>business</strong> and <strong>plan</strong>, <strong>manage</strong> and
+                            <strong>execute</strong> key <strong>projects</strong>
+                          </li>
+                          <li>Translating <strong>business requirements</strong> into engineering features and
+                            <strong>collaborating with teammates</strong> to push features to completion.
+                          </li>
+                          <li>Communicating with cross-functional teams and <strong>conducting peer code
+                              reviews</strong> while equally participating in <strong>code testing, refactoring
+                              code</strong> and <strong>preparing technical documentation</strong> to develop more
+                            robust software.</li>
+                          <li>Developing Product based Backend API using <strong>Python</strong>,
+                            <strong>Django</strong>, <strong>DRF(Django rest framework)</strong>,<strong>MySql</strong>,
+                            <strong>Git</strong>, <strong>AWS</strong>, <strong>Firebase</strong>.
+                          </li>
+                        </ul>
                       </div>
 
                       <div class="timeline-item clearfix">
@@ -153,9 +206,19 @@
                         <span class="item-company">Softvan(Ahmedabad)</span>
                         <h4 class="item-title">Python Developer Intern</h4>
                         <ul>
-                          <li>Being an intern developed <strong>3+</strong> disparate small highly scalable web applications using copious frameworks as <strong>Flask</strong> of <strong>Python,</strong> applying <strong>Object Oriented Paradigm,</strong> and also integrated <strong>SqlAlchemy</strong> and environment for the final project where database was <strong>Postgresql,</strong> the most highly preferred structured database.</li>
-                          <li>Attended practical sessions for better understanding of client-side changes as <strong>HTML</strong> and <strong>CSS</strong> while gaining deep experience of how it affects <strong>Javascript</strong> and also developed numerous applications as a part of multiple pilot projects.</li>
-                          <li>Followed <strong>SDLC Life cycle</strong> to ensure proper flow in development process and thereby promising predicted product to the stakeholders.</li>
+                          <li>Being an intern developed <strong>3+</strong> disparate small highly scalable web
+                            applications using copious frameworks as <strong>Flask</strong> of <strong>Python,</strong>
+                            applying <strong>Object Oriented Paradigm,</strong> and also integrated
+                            <strong>SqlAlchemy</strong> and environment for the final project where database was
+                            <strong>Postgresql,</strong> the most highly preferred structured database.
+                          </li>
+                          <li>Attended practical sessions for better understanding of client-side changes as
+                            <strong>HTML</strong> and <strong>CSS</strong> while gaining deep experience of how it
+                            affects <strong>Javascript</strong> and also developed numerous applications as a part of
+                            multiple pilot projects.
+                          </li>
+                          <li>Followed <strong>SDLC Life cycle</strong> to ensure proper flow in development process and
+                            thereby promising predicted product to the stakeholders.</li>
                         </ul>
                       </div>
 
@@ -213,12 +276,12 @@
                         <div class="skill-percentage"></div>
                       </div>
 
-<!--                      <div class="clearfix">-->
-<!--                        <h4>Swift</h4>-->
-<!--                      </div>-->
-<!--                      <div id="skill_1_3" data-value="100" class="skill-container">-->
-<!--                        <div class="skill-percentage"></div>-->
-<!--                      </div>-->
+                      <!--                      <div class="clearfix">-->
+                      <!--                        <h4>Swift</h4>-->
+                      <!--                      </div>-->
+                      <!--                      <div id="skill_1_3" data-value="100" class="skill-container">-->
+                      <!--                        <div class="skill-percentage"></div>-->
+                      <!--                      </div>-->
 
                       <div class="clearfix">
                         <h4>Python</h4>
@@ -331,28 +394,28 @@
                     </div>
                   </div>
 
-<!--                  <div class=" col-xs-12 col-sm-4 ">-->
-<!--                    <div class="block-title">-->
-<!--                      <h2>Automation Tools</h2>-->
-<!--                    </div>-->
+                  <!--                  <div class=" col-xs-12 col-sm-4 ">-->
+                  <!--                    <div class="block-title">-->
+                  <!--                      <h2>Automation Tools</h2>-->
+                  <!--                    </div>-->
 
-<!--                    <div id="skills_1" class="skills-info skills-first-style">-->
-<!--                      <div class="clearfix">-->
-<!--                        <h4>Selenium</h4>-->
-<!--                      </div>-->
-<!--                      <div id="skill_1_9" data-value="90" class="skill-container">-->
-<!--                        <div class="skill-percentage"></div>-->
-<!--                      </div>-->
-<!--                      -->
-<!--                      <div class="clearfix">-->
-<!--                        <h4>JUnit</h4>-->
-<!--                      </div>-->
-<!--                      -->
-<!--                      <div id="skill_1_10" data-value="85" class="skill-container">-->
-<!--                        <div class="skill-percentage"></div>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
+                  <!--                    <div id="skills_1" class="skills-info skills-first-style">-->
+                  <!--                      <div class="clearfix">-->
+                  <!--                        <h4>Selenium</h4>-->
+                  <!--                      </div>-->
+                  <!--                      <div id="skill_1_9" data-value="90" class="skill-container">-->
+                  <!--                        <div class="skill-percentage"></div>-->
+                  <!--                      </div>-->
+                  <!--                      -->
+                  <!--                      <div class="clearfix">-->
+                  <!--                        <h4>JUnit</h4>-->
+                  <!--                      </div>-->
+                  <!--                      -->
+                  <!--                      <div id="skill_1_10" data-value="85" class="skill-container">-->
+                  <!--                        <div class="skill-percentage"></div>-->
+                  <!--                      </div>-->
+                  <!--                    </div>-->
+                  <!--                  </div>-->
 
                   <div class=" col-xs-12 col-sm-4 ">
                     <div class="block-title">
@@ -480,7 +543,7 @@
             <p> Made with <i class="fa fa-heart"></i> by Maulik Zalavadiya</p>
           </div>
         </footer>
-        
+
       </div>
     </div>
 
@@ -497,5 +560,6 @@
     <script src="../js/validator.js"></script>
     <script src="../js/main.js"></script>
     <script src="https://kit.fontawesome.com/1386a35a5c.js" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
